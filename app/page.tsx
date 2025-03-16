@@ -13,7 +13,7 @@ export default function Home() {
         <div className="container flex h-16 items-center justify-between">
           <div className="flex items-center gap-2">
             <Shield className="h-6 w-6 text-primary" />
-            <span className="text-xl font-bold">CryptoNova</span>
+            <span className="text-xl font-bold">CryptoArithmetic</span>
           </div>
           <nav className="hidden md:flex items-center gap-6">
             <Link href="#features" className="text-sm font-medium hover:text-primary">
@@ -263,7 +263,7 @@ export default function Home() {
             <div>
               <div className="flex items-center gap-2 mb-4">
                 <Shield className="h-6 w-6 text-primary" />
-                <span className="text-xl font-bold">CryptoNova</span>
+                <span className="text-xl font-bold">CryptoArithmetic</span>
               </div>
               <p className="text-muted-foreground">
                 Secure, reliable, and intuitive crypto trading platform for modern investors.
@@ -351,7 +351,7 @@ export default function Home() {
 
           <div className="border-t mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
             <p className="text-sm text-muted-foreground">
-              © {new Date().getFullYear()} CryptoNova. All rights reserved.
+              © {new Date().getFullYear()} CryptoArithmetic. All rights reserved.
             </p>
             <div className="flex gap-4 mt-4 md:mt-0">
               <Link href="#" className="text-muted-foreground hover:text-foreground">
